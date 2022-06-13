@@ -36,9 +36,9 @@ iniciarCompras = () => {
     valorFeijao +
     valorVinho
 
-  let metadeValor = valorTotal / 2
+  let metadeValorTotal = valorTotal / 2
 
-  console.log(metadeValor)
+  console.log(metadeValorTotal)
 
   // CALCULANDO SE O RESTO É IMPAR OU PAR
 
@@ -51,6 +51,6 @@ iniciarCompras = () => {
       `Deu par!\nO total da compra foi de R$${valorTotal}\nVocê deverá pagar R$${valorMetade}\nSeu amigo deverá pagar R$${valorAmigo}`
     )
   } else {
-    alert(`Deu impar!\n Cada um deverá pagar R$${metadeValor}`)
+    alert(`Deu impar!\n Cada um deverá pagar R$${metadeValorTotal}`)
   }
 }
